@@ -1,4 +1,5 @@
 """These additions were made to the Attention U-Net repository networks.py file to include a ResNet Encoder"""
+"""Repo Link: https://github.com/LeeJunHyun/Image_Segmentation"""
 
 class ResNetEncoder(nn.Module):
     def __init__(self, weights=ResNet101_Weights.IMAGENET1K_V1):
